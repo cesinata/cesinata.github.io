@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cesilia Nainggolan</title>
+<meta name="description" content="Cesilia Nainggolan: early-career machine learning and software projects, with measured results and stated limits.">
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="nav">
+    <a class="brand" href="#top">cesinata</a>
+    <nav>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="https://github.com/cesinata">GitHub</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="top">
+    <h1>Cesilia Nainggolan</h1>
+    <p>I'm still early in my career and keen to learn more. These are projects I built to practise, and each one says what it measured and where it falls short.</p>
+  </section>
+
+  <main class="grid" id="work">
+    <a class="tile c7 proj big" href="https://github.com/cesinata/llm-project">
+      <img src="img/crashsql.png" alt="Streamlit app that answers road crash questions in plain English" loading="lazy">
+      <span class="cap"><span class="name">llm-project (crashsql)</span>
+      <span class="desc">Answers plain-English questions about 202,554 Victorian road crashes. 82% correct on a 22-question gold set (measured).</span></span>
+    </a>
+
+    <section class="tile c5 skills" id="skills">
+      <h2>Skills</h2>
+      <div class="row ml"><h3>Machine learning and computer vision</h3>
+        <p>PyTorch, TensorFlow, scikit-learn, ONNX<br>Computer vision, NLP, LLM agents, recommenders<br>CNNs, transfer learning, model evaluation</p></div>
+      <div class="row se"><h3>Software engineering</h3>
+        <p>Python, C/C++, TypeScript, JavaScript, Java, C#<br>FastAPI, Node.js, React Native, .NET<br>Embedded (STM32, ESP32), Docker, Terraform<br>Azure, GitHub Actions, Git, Scrum</p></div>
+      <div class="row da"><h3>Data analysis and visualisation</h3>
+        <p>SQL, PostgreSQL, SQL Server, dbt, pandas<br>Power BI, Tableau, Excel</p></div>
+    </section>
+
+    <a class="tile c4 proj" href="https://github.com/cesinata/facial-expression-lab">
+      <img src="img/fel.png" alt="Emoji mirror demo page with a blurred webcam frame and probability bars" loading="lazy">
+      <span class="cap"><span class="name">facial-expression-lab</span>
+      <span class="desc">Re-tested my thesis approach on JAFFE. Accuracy fell from 0.864 to 0.573 once the test set held out whole people (measured).</span></span>
+    </a>
+    <a class="tile c4 proj" href="https://github.com/cesinata/mini-city-brain">
+      <img src="img/city.png" alt="Traffic volume demo page built on real October 2026 data" loading="lazy">
+      <span class="cap"><span class="name">mini-city-brain</span>
+      <span class="desc">Replayed 1,577,675 real traffic readings through an API, queue and warehouse. 15 of 15 data checks passed (measured, one laptop run).</span></span>
+    </a>
+    <a class="tile c4 proj" href="https://github.com/cesinata/cs-notes-and-games">
+      <img src="img/game.png" alt="Courier's Atlas puzzle game: pixel-art map with named districts" loading="lazy">
+      <span class="cap"><span class="name">cs-notes-and-games</span>
+      <span class="desc">Free computer science study site and puzzle game: 104 levels, 68 chapters. Built with Claude Code, disclosed in the README.</span></span>
+    </a>
+
+    <a class="tile c6 proj" href="https://github.com/cesinata/asia-commodity-trade">
+      <img src="img/asia.png" alt="Indonesia wheat trade dashboard showing title and key figures" loading="lazy">
+      <span class="cap"><span class="name">asia-commodity-trade</span>
+      <span class="desc">Australia's share of Indonesia's wheat imports fell from 57.6% to 40.6% between 2015 and 2025 (UN Comtrade).</span></span>
+    </a>
+    <a class="tile c6 proj" href="https://github.com/cesinata/edge-vision-lab">
+      <img src="img/edge.png" alt="Confusion matrix and float32 against partly int8 model size and accuracy, measured on the test split" loading="lazy">
+      <span class="cap"><span class="name">edge-vision-lab</span>
+      <span class="desc">Scene-split bird, drone and neither classifier. Plain int8 broke it; a partly int8 model recovered most of it (measured, laptop CPU, no board).</span></span>
+    </a>
+
+    <section class="tile c12 contact" id="contact">
+      <div><h2>Get in touch</h2><p>Happy to talk about graduate and junior roles.</p></div>
+      <div class="btns">
+        <a class="btn primary" href="mailto:cesilianata@gmail.com">Email me</a>
+        <a class="btn" href="https://www.linkedin.com/in/cesiliantsy">LinkedIn</a>
+        <a class="btn" href="https://github.com/cesinata">GitHub</a>
+      </div>
+    </section>
+  </main>
+  <footer>Melbourne, Australia</footer>
+</div>
+</body>
+</html>
